@@ -1314,6 +1314,18 @@ a {
   background-image: url('../img/sm-橫式-為什麼選擇了做甜點.svg');
 }
 
+.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/JHANGMING\/dessertStore\/383cbb1459cebf5b7024b23663d912da3c3e1acb\/img\/sm-\%E6\%A9\%AB\%E5\%BC\%8F-\%E7\%82\%BA\%E4\%BB\%80\%E9\%BA\%BC\%E9\%81\%B8\%E6\%93\%87\%E4\%BA\%86\%E5\%81\%9A\%E7\%94\%9C\%E9\%BB\%9E\.svg\'\)\]{
+  background-image: url('https://raw.githubusercontent.com/JHANGMING/dessertStore/383cbb1459cebf5b7024b23663d912da3c3e1acb/img/sm-%E6%A9%AB%E5%BC%8F-%E7%82%BA%E4%BB%80%E9%BA%BC%E9%81%B8%E6%93%87%E4%BA%86%E5%81%9A%E7%94%9C%E9%BB%9E.svg');
+}
+
+.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/JHANGMING\/dessertStore\/383cbb1459cebf5b7024b23663d912da3c3e1acb\/img\/sm-\%E6\%A9\%AB\%E5\%BC\%8F-\%E7\%82\%BA\%E4\%BB\%80\%E9\%BA\%BC\%E4\%B8\%80\%E5\%AE\%9A\%E8\%A6\%81\%E5\%90\%83\%E7\%94\%9C\%E9\%BB\%9E\.svg\'\)\]{
+  background-image: url('https://raw.githubusercontent.com/JHANGMING/dessertStore/383cbb1459cebf5b7024b23663d912da3c3e1acb/img/sm-%E6%A9%AB%E5%BC%8F-%E7%82%BA%E4%BB%80%E9%BA%BC%E4%B8%80%E5%AE%9A%E8%A6%81%E5%90%83%E7%94%9C%E9%BB%9E.svg');
+}
+
+.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/JHANGMING\/dessertStore\/383cbb1459cebf5b7024b23663d912da3c3e1acb\/img\/sm-\%E6\%A9\%AB\%E5\%BC\%8F-\%E6\%83\%B3\%E5\%90\%83\%E7\%94\%9C\%E9\%BB\%9E\%E6\%98\%AF\%E4\%B8\%8D\%E9\%9C\%80\%E8\%A6\%81\%E7\%90\%86\%E7\%94\%B1\%E7\%9A\%84\.svg\'\)\]{
+  background-image: url('https://raw.githubusercontent.com/JHANGMING/dessertStore/383cbb1459cebf5b7024b23663d912da3c3e1acb/img/sm-%E6%A9%AB%E5%BC%8F-%E6%83%B3%E5%90%83%E7%94%9C%E9%BB%9E%E6%98%AF%E4%B8%8D%E9%9C%80%E8%A6%81%E7%90%86%E7%94%B1%E7%9A%84.svg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -2043,6 +2055,18 @@ a {
 
   .lg\:bg-\[url\(\'\.\.\/img\/lg-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\'\)\]{
     background-image: url('../img/lg-為什麼選擇了做甜點.svg');
+  }
+
+  .lg\:bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/JHANGMING\/dessertStore\/383cbb1459cebf5b7024b23663d912da3c3e1acb\/img\/lg-\%E7\%82\%BA\%E4\%BB\%80\%E9\%BA\%BC\%E9\%81\%B8\%E6\%93\%87\%E4\%BA\%86\%E5\%81\%9A\%E7\%94\%9C\%E9\%BB\%9E\.svg\'\)\]{
+    background-image: url('https://raw.githubusercontent.com/JHANGMING/dessertStore/383cbb1459cebf5b7024b23663d912da3c3e1acb/img/lg-%E7%82%BA%E4%BB%80%E9%BA%BC%E9%81%B8%E6%93%87%E4%BA%86%E5%81%9A%E7%94%9C%E9%BB%9E.svg');
+  }
+
+  .lg\:bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/JHANGMING\/dessertStore\/383cbb1459cebf5b7024b23663d912da3c3e1acb\/img\/lg-\%E7\%82\%BA\%E4\%BB\%80\%E9\%BA\%BC\%E4\%B8\%80\%E5\%AE\%9A\%E8\%A6\%81\%E5\%90\%83\%E7\%94\%9C\%E9\%BB\%9E\.svg\'\)\]{
+    background-image: url('https://raw.githubusercontent.com/JHANGMING/dessertStore/383cbb1459cebf5b7024b23663d912da3c3e1acb/img/lg-%E7%82%BA%E4%BB%80%E9%BA%BC%E4%B8%80%E5%AE%9A%E8%A6%81%E5%90%83%E7%94%9C%E9%BB%9E.svg');
+  }
+
+  .lg\:bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/JHANGMING\/dessertStore\/383cbb1459cebf5b7024b23663d912da3c3e1acb\/img\/sm-\%E6\%83\%B3\%E5\%90\%83\%E7\%94\%9C\%E9\%BB\%9E\%E6\%98\%AF\%E4\%B8\%8D\%E9\%9C\%80\%E8\%A6\%81\%E7\%90\%86\%E7\%94\%B1\%E7\%9A\%84\.svg\'\)\]{
+    background-image: url('https://raw.githubusercontent.com/JHANGMING/dessertStore/383cbb1459cebf5b7024b23663d912da3c3e1acb/img/sm-%E6%83%B3%E5%90%83%E7%94%9C%E9%BB%9E%E6%98%AF%E4%B8%8D%E9%9C%80%E8%A6%81%E7%90%86%E7%94%B1%E7%9A%84.svg');
   }
 
   .lg\:bg-no-repeat{
