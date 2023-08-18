@@ -1306,6 +1306,14 @@ a {
   background-image: url('{{./img/sm-橫式-為什麼選擇了做甜點.svg}}');
 }
 
+.bg-\[url\(\'\.\/img\/sm-\6A6B\5F0F-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\}\}\'\)\]{
+  background-image: url('./img/sm-橫式-為什麼選擇了做甜點.svg}}');
+}
+
+.bg-\[url\(\'\.\.\/img\/sm-\6A6B\5F0F-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\'\)\]{
+  background-image: url('../img/sm-橫式-為什麼選擇了做甜點.svg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -2027,6 +2035,14 @@ a {
 
   .lg\:bg-\[url\(\'\{\{\.\/img\/lg-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\}\}\'\)\]{
     background-image: url('{{./img/lg-為什麼選擇了做甜點.svg}}');
+  }
+
+  .lg\:bg-\[url\(\'\.\/img\/lg-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\}\}\'\)\]{
+    background-image: url('./img/lg-為什麼選擇了做甜點.svg}}');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/img\/lg-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\'\)\]{
+    background-image: url('../img/lg-為什麼選擇了做甜點.svg');
   }
 
   .lg\:bg-no-repeat{
