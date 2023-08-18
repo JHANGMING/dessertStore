@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/output.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <header class="container px-0">
+      <div class="hidden py-6 lg:flex lg:items-center lg:justify-between">
+        <div>
+          <h1>
+            <a href="./index.html" class="logo hover:scale-110"
+              ><img
+                src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-all-dark.svg"
+                alt="logo"
+                class="h-[40px] w-[219px]"
+            /></a>
+          </h1>
+        </div>
+        <ul class="flex gap-12 font-semibold text-dessert">
+          <li>
+            <a href="./index.html" class="hover:text-dessert-third">首頁</a>
+          </li>
+          <li>
+            <a href="./dessertproduct.html" class="hover:text-dessert-third"
+              >甜點</a
+            >
+          </li>
+          <li>
+            <a href="./login.html" class="mr-3.75 hover:text-dessert-third"
+              >登入</a
+            >
+          </li>
+          <li>
+            <a href="./cart.html" class="hover:scale-125"
+              ><img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true"
+                alt="cart"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- mobile nav  -->
+      <ul class="flex justify-between p-6 lg:hidden">
+        <li>
+          <a href="##" class="btn hover:scale-125"
+            ><img
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/dehaze-24px.png?raw=true"
+              alt="meau"
+          /></a>
+        </li>
+        <li>
+          <h1>
+            <a href="./index.html" ; class="logo hover:scale-125"
+              ><img
+                src="./img/logotype-sm-dark.svg"
+                alt="logo"
+                class="h-[18px]"
+            /></a>
+          </h1>
+        </li>
+        <li>
+          <a href="./cart.html" class="hover:scale-125"
+            ><img
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true"
+              alt="cart"
+          /></a>
+        </li>
+      </ul>
+      <!-- 下拉式選單  -->
+      <div class="header-collapse hidden">
+        <ul class="flex w-screen justify-between bg-dessert-first p-6">
+          <li>
+            <a href="#" class="btn">
+              <span class="close material-icons text-dessert"> close </span>
+            </a>
+          </li>
+          <li>
+            <h1>
+              <a href="./index.html" ; class="logo hover:scale-125"
+                ><img
+                  src="./img/logotype-sm-dark.svg"
+                  alt="logo"
+                  class="h-[18px]"
+              /></a>
+            </h1>
+          </li>
+          <li>
+            <a href="./cart.html" class="hover:scale-125"
+              ><img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true"
+                alt="cart"
+            /></a>
+          </li>
+        </ul>
+        <ul class="ham-link flex flex-col">
+          <li class="text-dessert">
+            <a
+              href="./index.html"
+              class="mb-4 flex items-center text-6xxl font-semibold hover:text-dessert-third"
+            >
+              <span class="material-icons mr-3 text-4xl"> rocket_launch </span>
+              <p>首頁</p>
+            </a>
+          </li>
+          <li class="text-dessert">
+            <a
+              href="./dessertproduct.html"
+              class="mb-4 flex items-center text-6xxl font-semibold hover:text-dessert-third"
+            >
+              <span class="material-icons mr-3 text-4xl"> cake </span>
+              <p>甜點</p>
+            </a>
+          </li>
+          <li class="text-dessert">
+            <a
+              href="./login.html"
+              class="flex items-center text-6xxl font-semibold hover:text-dessert-third"
+            >
+              <span class="material-icons mr-3 text-4xl"> account_box </span>
+              <p>登入</p>
+            </a>
+          </li>
+        </ul>
+        <div class="container bg-dessert-first p-4">
+          <div class="flex flex-col justify-end">
+            <a href="./index.html">
+              <img
+                src="./img/logotype-lg-dark.svg"
+                alt="logo"
+                class="mb-4 mt-2 w-[171px] hover:scale-125"
+              />
+            </a>
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-between"
+            >
+              <ul class="flex">
+                <li class="mb-5 mr-1.75 lg:mb-0">
+                  <a href="https://line.me/zh-hant/"
+                    ><img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-line%40.svg"
+                      alt="contact-line"
+                      class="w-[32px] hover:scale-125"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/"
+                    ><img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-facebook.svg"
+                      alt="contact-fb"
+                      class="w-[32px] hover:scale-125"
+                  /></a>
+                </li>
+              </ul>
+              <p class="text-dessert">© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container px-0 md:px-6 lg:px-0">
+        <div class="grid grid-cols-12 gap-4 lg:mb-12">
+          <!-- 購物車  -->
+          <div class="col-span-12 lg:col-span-8">
+            <h2
+              class="mb-6 bg-dessert-first py-2.25 text-center text-2xl font-semibold text-dessert lg:mb-[33px]"
+            >
+              您的購物車
+            </h2>
+            <ul class="mb-2 px-6 lg:px-0">
+              <li
+                class="mb-6 flex flex-wrap justify-between lg:mb-4 lg:items-center lg:justify-start lg:gap-[39px] lg:border-b lg:border-dessert-first lg:pb-4"
+              >
+                <div
+                  class="h-[106px] w-[157px] bg-[url('https://bit.ly/2QvsT63')] bg-cover bg-center bg-no-repeat lg:h-[110px] lg:w-[110px]"
+                ></div>
+                <div class="lg:flex lg:items-center lg:gap-[39px]">
+                  <div class="mb-1.75 text-dessert lg:mb-0">
+                    <h3 class="text-xl font-light">焦糖馬卡龍</h3>
+                    <span>NT$ 450</span>
+                  </div>
+                  <ul class="flex">
+                    <li
+                      class="w-[48px] border border-dessert-first text-center hover:bg-dessert"
+                    >
+                      <a
+                        href="##"
+                        class="py-[14px] text-dessert hover:text-white"
+                        >-</a
+                      >
+                    </li>
+                    <li
+                      class="w-[48px] border border-dessert-first text-center hover:bg-dessert"
+                    >
+                      <a
+                        href="##"
+                        class="py-[14px] text-dessert hover:text-white"
+                        >2</a
+                      >
+                    </li>
+                    <li
+                      class="w-[48px] border border-dessert-first text-center hover:bg-dessert"
+                    >
+                      <a
+                        href="##"
+                        class="py-[14px] text-dessert hover:text-white"
+                        >+</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <p
+                  class="order-1 mt-[8.5px] w-full border-b border-t border-dessert-first py-[8.5px] text-right text-xl font-semibold text-dessert lg:order-none lg:mt-0 lg:w-auto lg:border-0"
+                >
+                  NT$ 900
+                </p>
+                <a href="##" class="hidden lg:flex lg:items-center"
+                  ><span
+                    class="material-icons-outlined text-dessert-second hover:scale-110 hover:text-dessert"
+                  >
+                    delete
+                  </span></a
+                >
+              </li>
+              <li
+                class="mb-6 flex flex-wrap justify-between lg:mb-4 lg:items-center lg:justify-start lg:gap-[39px] lg:border-b lg:border-dessert-first lg:pb-4"
+              >
+                <div
+                  class="h-[106px] w-[157px] bg-[url('https://bit.ly/2zBDAxX')] bg-cover bg-center bg-no-repeat lg:h-[110px] lg:w-[110px]"
+                ></div>
+                <div class="lg:flex lg:items-center lg:gap-[39px]">
+                  <div class="mb-1.75 text-dessert lg:mb-0">
+                    <h3 class="text-xl font-light">焦糖馬卡龍</h3>
+                    <span>NT$ 450</span>
+                  </div>
+                  <ul class="flex">
+                    <li
+                      class="w-[48px] border border-dessert-first text-center hover:bg-dessert"
+                    >
+                      <a
+                        href="##"
+                        class="py-[14px] text-dessert hover:text-white"
+                        >-</a
+                      >
+                    </li>
+                    <li
+                      class="w-[48px] border border-dessert-first text-center hover:bg-dessert"
+                    >
+                      <a
+                        href="##"
+                        class="py-[14px] text-dessert hover:text-white"
+                        >2</a
+                      >
+                    </li>
+                    <li
+                      class="w-[48px] border border-dessert-first text-center hover:bg-dessert"
+                    >
+                      <a
+                        href="##"
+                        class="py-[14px] text-dessert hover:text-white"
+                        >+</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <p
+                  class="order-1 mt-[8.5px] w-full border-b border-t border-dessert-first py-[8.5px] text-right text-xl font-semibold text-dessert lg:order-none lg:mt-0 lg:w-auto lg:border-0"
+                >
+                  NT$ 900
+                </p>
+                <a href="##" class="hidden lg:flex lg:items-center"
+                  ><span
+                    class="material-icons-outlined text-dessert-second hover:scale-110 hover:text-dessert"
+                  >
+                    delete
+                  </span></a
+                >
+              </li>
+              <li
+                class="flex flex-wrap justify-between lg:items-center lg:justify-start lg:gap-[39px]"
+              >
+                <div
+                  class="h-[106px] w-[157px] bg-[url('https://bit.ly/2zKOP7w')] bg-cover bg-center bg-no-repeat lg:h-[110px] lg:w-[110px]"
+                ></div>
+                <div class="lg:flex lg:items-center lg:gap-[39px]">
+                  <div class="mb-1.75 text-dessert lg:mb-0">
+                    <h3 class="text-xl font-light">焦糖馬卡龍</h3>
+                    <span>NT$ 450</span>
+                  </div>
+                  <ul class="flex">
+                    <li
+                      class="w-[48px] border border-dessert-first text-center hover:bg-dessert"
+                    >
+                      <a
+                        href="##"
+                        class="py-[14px] text-dessert hover:text-white"
+                        >-</a
+                      >
+                    </li>
+                    <li
+                      class="w-[48px] border border-dessert-first text-center hover:bg-dessert"
+                    >
+                      <a
+                        href="##"
+                        class="py-[14px] text-dessert hover:text-white"
+                        >2</a
+                      >
+                    </li>
+                    <li
+                      class="w-[48px] border border-dessert-first text-center hover:bg-dessert"
+                    >
+                      <a
+                        href="##"
+                        class="py-[14px] text-dessert hover:text-white"
+                        >+</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <p
+                  class="order-1 mt-[8.5px] w-full border-b border-t border-dessert-first py-[8.5px] text-right text-xl font-semibold text-dessert lg:order-none lg:mt-0 lg:w-auto lg:border-0"
+                >
+                  NT$ 900
+                </p>
+                <a href="##" class="hidden lg:flex lg:items-center"
+                  ><span
+                    class="material-icons-outlined text-dessert-second hover:scale-110 hover:text-dessert"
+                  >
+                    delete
+                  </span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- 訂單摘要  -->
+          <div class="col-span-12 lg:col-span-4">
+            <ul class="px-6 md:px-3.75 lg:bg-dessert">
+              <h2
+                class="mb-3.5 border-b bg-dessert-first py-2.25 text-center text-2xl font-semibold text-dessert lg:border-dessert-first lg:bg-dessert lg:text-white"
+              >
+                訂單摘要
+              </h2>
+              <li
+                class="mb-1.75 flex justify-between font-light text-dessert lg:text-dessert-first"
+              >
+                <p>小計</p>
+                <span>NT$ 2,700</span>
+              </li>
+              <li
+                class="mb-3.5 flex justify-between font-light text-dessert lg:text-dessert-first"
+              >
+                <p>運費</p>
+                <span>NT$ 300</span>
+              </li>
+              <li
+                class="flex justify-between pb-3.5 text-xl font-semibold text-dessert lg:text-dessert-first"
+              >
+                <p>總計</p>
+                <span>NT$ 3,000</span>
+              </li>
+            </ul>
+            <a
+              href="./checkout-1.html"
+              class="btn-base"
+              >結帳</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="bg-dessert">
+        <div
+          class="container flex flex-col items-center p-6 md:max-w-[780px] md:flex-row md:items-center md:justify-between md:px-6 lg:px-0"
+        >
+          <div class="mb-6 flex md:mb-0">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-light.svg"
+              alt="logo-sm"
+              class="mr-4 h-[40px] w-[40px]"
+            />
+            <label for="email" class="text-2xl text-dessert-first font-sans"
+              >訂閱你我的甜蜜郵件</label
+            >
+          </div>
+          <div class="relative flex w-full md:w-auto">
+            <img
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/mail-24px.png?raw=true"
+              alt="mail"
+              class="absolute left-[20px] top-[16px] h-[24px] w-[24px]"
+            />
+            <input
+              type="text"
+              id="email"
+              class="block h-[56px] w-full pl-13 md:w-[380px]"
+            />
+            <a
+              href="service@hexschool.com"
+              class="absolute right-0 top-0 flex h-[56px] w-[64px] items-center justify-center bg-dessert-third hover:opacity-80"
+              ><img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_forward-24px.png?raw=true"
+                alt="arrow_forward "
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dessert-first lg:py-6">
+        <div class="container p-6 md:max-w-[780px] md:px-6 lg:px-0">
+          <div class="flex h-[251px] flex-col justify-between lg:h-auto">
+            <div class="flex justify-between lg:mb-6">
+              <div class="flex flex-col justify-between">
+                <a href="./index.html">
+                  <img
+                    src="./img/logotype-lg-dark.svg"
+                    alt="logo"
+                    class="mb-8 w-[171px] hover:scale-125 lg:mb-0"
+                  />
+                </a>
+                <ul class="text-dessert font-sans">
+                  <li>07-1234-5678</li>
+                  <li>sweetaste@email.com</li>
+                  <li>800 高雄市新興區幸福路 520 號</li>
+                </ul>
+              </div>
+              <img
+                src="./img/sm-今天是個吃甜點的好日子.svg"
+                alt="dessert-logo"
+                class="hidden w-[59px] lg:block"
+              />
+            </div>
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-between"
+            >
+              <ul class="flex">
+                <li class="mb-5 mr-1.75 lg:mb-0">
+                  <a href="https://line.me/zh-hant/"
+                    ><img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-line%40.svg"
+                      alt="contact-line"
+                      class="w-[32px] hover:scale-125"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/"
+                    ><img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-facebook.svg"
+                      alt="contact-fb"
+                      class="w-[32px] hover:scale-125"
+                  /></a>
+                </li>
+              </ul>
+              <p class="text-dessert font-serif">© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./animation.js"></script>
+  </body>
+</html>

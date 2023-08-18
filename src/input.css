@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,900;1,900&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "PingFang TC", sans-serif;
+  }
+  .container {
+    max-width: 940px;
+  }
+  a {
+    display: block;
+  }
+}
+
+@layer components {
+  .article {
+    @apply lg:writing-vtrl h-[280px] p-6 font-light leading-8 text-dessert-second lg:p-0 lg:leading-10;
+  }
+  .addcartBtn{
+    @apply bg-dessert-first py-2.25 text-center text-2xl font-semibold text-dessert hover:bg-dessert-third hover:text-white;
+  }
+  .card-title{
+    @apply w-7/12 border-r border-dessert-first py-3.75 text-center;
+  }
+  .card-subtitle{
+    @apply w-5/12 py-3.75 text-center font-semibold;
+  }
+  .banner-list{
+    @apply writing-vtrl bg-o flex h-[180px] w-full items-center justify-center text-2xl font-light text-white backdrop-blur-[5px] hover:font-semibold hover:text-dessert lg:h-[256px];
+  }
+  .list{
+    @apply border border-dessert-first py-2.25 text-center;
+  }
+  .btn-base{
+    @apply w-full bg-dessert-third py-2.25 text-center text-2xl font-semibold text-dessert hover:text-white;
+  }
+}
+
+@layer utilities {
+  .logo {
+    display: block;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .tag {
+    writing-mode: vertical-lr;
+    letter-spacing: 5px;
+    left: 20px;
+    top: 0;
+  }
+  .tag-love {
+    right: 22px;
+    top: 19px;
+  }
+  .writing-vtrl {
+    writing-mode: vertical-rl;
+  }
+  .bg-o {
+    background: rgba(63, 93, 69, 0.8);
+  }
+  .bg-o:hover {
+    background: rgba(255, 225, 128, 0.8);
+  }
+
+  .progressBar-lg {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .progressBarlast-lg {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .progressBar-lg::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    top: 10px;
+    left: 20px;
+  }
+  .progressBar {
+    width: 16.5px;
+    height: 16.5px;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .progressBarlast {
+    width: 16.5px;
+    height: 16.5px;
+    border-radius: 50%;
+  }
+
+  .progressBar::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top: 8px;
+    left: 17px;
+  }
+  .custom-checkbox {
+    /* 移除原有的外觀 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+  }
+  .custom-checkbox::before {
+    content: "\2713";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    background: blue;
+    text-align: center;
+    line-height: 15px;
+    display: none;
+  }
+  .custom-checkbox:checked::before {
+    display: block;
+  }
+  .header-collapse {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+  }
+  .header-collapse.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+  }
+}

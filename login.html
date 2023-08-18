@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/output.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="container px-0">
+      <div class="hidden py-6 lg:flex lg:items-center lg:justify-between">
+        <div>
+          <h1>
+            <a href="./index.html" class="logo hover:scale-110"
+              ><img
+                src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-all-dark.svg"
+                alt="logo"
+                class="h-[40px] w-[219px]"
+            /></a>
+          </h1>
+        </div>
+        <ul class="flex gap-12 font-semibold text-dessert">
+          <li>
+            <a href="./index.html" class="hover:text-dessert-third">首頁</a>
+          </li>
+          <li>
+            <a href="./dessertproduct.html" class="hover:text-dessert-third"
+              >甜點</a
+            >
+          </li>
+          <li>
+            <a href="./login.html" class="mr-3.75 hover:text-dessert-third"
+              >登入</a
+            >
+          </li>
+          <li>
+            <a href="./cart.html" class="hover:scale-125"
+              ><img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true"
+                alt="cart"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- mobile nav  -->
+      <ul class="flex justify-between p-6 lg:hidden">
+        <li>
+          <a href="##" class="btn hover:scale-125"
+            ><img
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/dehaze-24px.png?raw=true"
+              alt="meau"
+          /></a>
+        </li>
+        <li>
+          <h1>
+            <a href="./index.html" ; class="logo hover:scale-125"
+              ><img
+                src="./img/logotype-sm-dark.svg"
+                alt="logo"
+                class="h-[18px]"
+            /></a>
+          </h1>
+        </li>
+        <li>
+          <a href="./cart.html" class="hover:scale-125"
+            ><img
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true"
+              alt="cart"
+          /></a>
+        </li>
+      </ul>
+      <!-- 下拉式選單  -->
+      <div class="header-collapse hidden">
+        <ul class="flex w-screen justify-between bg-dessert-first p-6">
+          <li>
+            <a href="#" class="btn">
+              <span class="close material-icons text-dessert"> close </span>
+            </a>
+          </li>
+          <li>
+            <h1>
+              <a href="./index.html" ; class="logo hover:scale-125"
+                ><img
+                  src="./img/logotype-sm-dark.svg"
+                  alt="logo"
+                  class="h-[18px]"
+              /></a>
+            </h1>
+          </li>
+          <li>
+            <a href="./cart.html" class="hover:scale-125"
+              ><img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true"
+                alt="cart"
+            /></a>
+          </li>
+        </ul>
+        <ul class="ham-link flex flex-col">
+          <li class="text-dessert">
+            <a
+              href="./index.html"
+              class="mb-4 flex items-center text-6xxl font-semibold hover:text-dessert-third"
+            >
+              <span class="material-icons mr-3 text-4xl"> rocket_launch </span>
+              <p>首頁</p>
+            </a>
+          </li>
+          <li class="text-dessert">
+            <a
+              href="./dessertproduct.html"
+              class="mb-4 flex items-center text-6xxl font-semibold hover:text-dessert-third"
+            >
+              <span class="material-icons mr-3 text-4xl"> cake </span>
+              <p>甜點</p>
+            </a>
+          </li>
+          <li class="text-dessert">
+            <a
+              href="./login.html"
+              class="flex items-center text-6xxl font-semibold hover:text-dessert-third"
+            >
+              <span class="material-icons mr-3 text-4xl"> account_box </span>
+              <p>登入</p>
+            </a>
+          </li>
+        </ul>
+        <div class="container bg-dessert-first p-4">
+          <div class="flex flex-col justify-end">
+            <a href="./index.html">
+              <img
+                src="./img/logotype-lg-dark.svg"
+                alt="logo"
+                class="mb-4 mt-2 w-[171px] hover:scale-125"
+              />
+            </a>
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-between"
+            >
+              <ul class="flex">
+                <li class="mb-5 mr-1.75 lg:mb-0">
+                  <a href="https://line.me/zh-hant/"
+                    ><img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-line%40.svg"
+                      alt="contact-line"
+                      class="w-[32px] hover:scale-125"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/"
+                    ><img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-facebook.svg"
+                      alt="contact-fb"
+                      class="w-[32px] hover:scale-125"
+                  /></a>
+                </li>
+              </ul>
+              <p class="text-dessert">© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container px-0 md:mb-12 md:max-w-[780px] md:px-6 lg:px-0">
+        <div class="flex">
+          <!-- 會員登入  -->
+          <ul class="w-full lg:w-1/2">
+            <li class="flex flex-col items-center bg-dessert px-6 py-8">
+              <h2 class="text-4xl font-semibold text-white">會員登入</h2>
+            </li>
+            <li class="bg-dessert-first px-6 py-8 lg:hidden">
+              <ul class="flex w-full">
+                <li class="w-full border-r border-dessert-first">
+                  <a
+                    href="https://www.facebook.com/"
+                    class="flex h-[56px] items-center justify-center bg-white"
+                    ><img
+                      src="./img/ic-facebook-logotype.svg"
+                      alt="facebook"
+                      class="h-[16px] w-[83px] hover:scale-125"
+                  /></a>
+                </li>
+                <li class="w-full border-r border-dessert-first">
+                  <a
+                    href="https://www.google.com.tw/"
+                    class="flex h-[56px] items-center justify-center bg-white"
+                    ><img
+                      src="./img/ic-google.svg"
+                      alt="google"
+                      class="h-[24px] w-[73px] hover:scale-125"
+                  /></a>
+                </li>
+                <li class="w-full">
+                  <a
+                    href="https://tw.yahoo.com/"
+                    class="flex h-[56px] items-center justify-center bg-white"
+                    ><img
+                      src="./img/ic-yahoo.svg"
+                      alt="yahoo"
+                      class="h-[17px] w-[74px] hover:scale-125"
+                  /></a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="flex flex-col items-center bg-dessert px-6 pb-[22px] pt-6 lg:pt-0"
+            >
+              <form action="" class="w-full">
+                <div class="relative mb-3">
+                  <span
+                    class="material-icons absolute left-4 top-[16px] text-2xl leading-6 text-dessert"
+                  >
+                    account_circle
+                  </span>
+                  <input
+                    type="text"
+                    placeholder="電子信箱/手機號碼"
+                    class="h-[56px] w-full bg-dessert-first pl-[64px]"
+                  />
+                </div>
+                <div class="relative mb-3">
+                  <span
+                    class="material-icons absolute left-4 top-[16px] text-2xl leading-6 text-dessert"
+                  >
+                    key
+                  </span>
+                  <input
+                    type="password"
+                    placeholder="請輸入使用者密碼"
+                    class="h-[56px] w-full bg-dessert-first pl-[64px]"
+                  />
+                </div>
+                <label for="check" class="flex items-center">
+                  <input
+                    type="checkbox"
+                    id="check"
+                    class="custom-checkbox mr-1.75 h-3.5 w-3.5 border border-white bg-dessert-first"
+                  />
+                  <span class="font-semibold text-dessert-first">記住我</span>
+                </label>
+              </form>
+            </li>
+            <li class="flex flex-col items-center bg-dessert">
+              <button
+                type="submit"
+                class="btn-base"
+              >
+                登入帳號
+              </button>
+            </li>
+          </ul>
+          <!-- 連結社群帳號  -->
+          <div
+            class="hidden h-fit w-1/2 translate-y-3 flex-col items-center bg-dessert-first px-6 py-8 lg:flex"
+          >
+            <h3 class="mb-[36px] text-2xl text-dessert-second">
+              —— 連結社群帳號 ——
+            </h3>
+            <ul class="w-full">
+              <li class="mb-3">
+                <a
+                  href=""
+                  class="flex h-[56px] items-center justify-center bg-white"
+                  ><img
+                    src="./img/ic-facebook-logotype.svg"
+                    alt=""
+                    class="h-[21px] w-full hover:scale-125"
+                /></a>
+              </li>
+              <li class="mb-3">
+                <a
+                  href=""
+                  class="flex h-[56px] items-center justify-center bg-white"
+                  ><img
+                    src="./img/ic-google.svg"
+                    alt=""
+                    class="h-[31px] w-full hover:scale-125"
+                /></a>
+              </li>
+              <li class="">
+                <a
+                  href=""
+                  class="flex h-[56px] items-center justify-center bg-white"
+                  ><img
+                    src="./img/ic-yahoo.svg"
+                    alt=""
+                    class="h-[22px] w-full hover:scale-125"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="bg-dessert">
+        <div
+          class="container flex flex-col items-center p-6 md:max-w-[780px] md:flex-row md:items-center md:justify-between md:px-6 lg:px-0"
+        >
+          <div class="mb-6 flex md:mb-0">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-light.svg"
+              alt="logo-sm"
+              class="mr-4 h-[40px] w-[40px]"
+            />
+            <label for="email" class="text-2xl text-dessert-first font-sans"
+              >訂閱你我的甜蜜郵件</label
+            >
+          </div>
+          <div class="relative flex w-full md:w-auto">
+            <img
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/mail-24px.png?raw=true"
+              alt="mail"
+              class="absolute left-[20px] top-[16px] h-[24px] w-[24px]"
+            />
+            <input
+              type="text"
+              id="email"
+              class="block h-[56px] w-full pl-13 md:w-[380px]"
+            />
+            <a
+              href="service@hexschool.com"
+              class="absolute right-0 top-0 flex h-[56px] w-[64px] items-center justify-center bg-dessert-third hover:opacity-80"
+              ><img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_forward-24px.png?raw=true"
+                alt="arrow_forward "
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dessert-first lg:py-6">
+        <div class="container p-6 md:max-w-[780px] md:px-6 lg:px-0">
+          <div class="flex h-[251px] flex-col justify-between lg:h-auto">
+            <div class="flex justify-between lg:mb-6">
+              <div class="flex flex-col justify-between">
+                <a href="./index.html">
+                  <img
+                    src="./img/logotype-lg-dark.svg"
+                    alt="logo"
+                    class="mb-8 w-[171px] hover:scale-125 lg:mb-0"
+                  />
+                </a>
+                <ul class="text-dessert font-sans">
+                  <li>07-1234-5678</li>
+                  <li>sweetaste@email.com</li>
+                  <li>800 高雄市新興區幸福路 520 號</li>
+                </ul>
+              </div>
+              <img
+                src="./img/sm-今天是個吃甜點的好日子.svg"
+                alt="dessert-logo"
+                class="hidden w-[59px] lg:block"
+              />
+            </div>
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-between"
+            >
+              <ul class="flex">
+                <li class="mb-5 mr-1.75 lg:mb-0">
+                  <a href="https://line.me/zh-hant/"
+                    ><img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-line%40.svg"
+                      alt="contact-line"
+                      class="w-[32px] hover:scale-125"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/"
+                    ><img
+                      src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-facebook.svg"
+                      alt="contact-fb"
+                      class="w-[32px] hover:scale-125"
+                  /></a>
+                </li>
+              </ul>
+              <p class="text-dessert font-serif">© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./animation.js"></script>
+  </body>
+</html>
