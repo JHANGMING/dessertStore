@@ -1282,6 +1282,30 @@ a {
   background-image: url('https://raw.githubusercontent.com/JHANGMING/dessertStore/8a983c24a26d8e235ab99e1feb4d08a6d35044f1/img/sm-%E6%A9%AB%E5%BC%8F-%E6%83%B3%E5%90%83%E7%94%9C%E9%BB%9E%E6%98%AF%E4%B8%8D%E9%9C%80%E8%A6%81%E7%90%86%E7%94%B1%E7%9A%84.svg');
 }
 
+.bg-\[url\(\'\.\/img\/sm-\6A6B\5F0F-\70BA\4EC0\9EBC\4E00\5B9A\8981\5403\751C\9EDE\.svg\'\)\]{
+  background-image: url('./img/sm-橫式-為什麼一定要吃甜點.svg');
+}
+
+.bg-\[url\(\'\.\/img\/sm-\6A6B\5F0F-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\'\)\]{
+  background-image: url('./img/sm-橫式-為什麼選擇了做甜點.svg');
+}
+
+.bg-\[url\(\'\{\}\.\/img\/sm-\6A6B\5F0F-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\'\)\]{
+  background-image: url('{}./img/sm-橫式-為什麼選擇了做甜點.svg');
+}
+
+.bg-\[url\(\'\{\{\}\}\.\/img\/sm-\6A6B\5F0F-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\'\)\]{
+  background-image: url('{{}}./img/sm-橫式-為什麼選擇了做甜點.svg');
+}
+
+.bg-\[url\(\'\{\{\}\}\'\)\]{
+  background-image: url('{{}}');
+}
+
+.bg-\[url\(\'\{\{\.\/img\/sm-\6A6B\5F0F-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\}\}\'\)\]{
+  background-image: url('{{./img/sm-橫式-為什麼選擇了做甜點.svg}}');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1975,6 +1999,34 @@ a {
 
   .lg\:bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/JHANGMING\/dessertStore\/8a983c24a26d8e235ab99e1feb4d08a6d35044f1\/img\/sm-\%E6\%83\%B3\%E5\%90\%83\%E7\%94\%9C\%E9\%BB\%9E\%E6\%98\%AF\%E4\%B8\%8D\%E9\%9C\%80\%E8\%A6\%81\%E7\%90\%86\%E7\%94\%B1\%E7\%9A\%84\.svg\'\)\]{
     background-image: url('https://raw.githubusercontent.com/JHANGMING/dessertStore/8a983c24a26d8e235ab99e1feb4d08a6d35044f1/img/sm-%E6%83%B3%E5%90%83%E7%94%9C%E9%BB%9E%E6%98%AF%E4%B8%8D%E9%9C%80%E8%A6%81%E7%90%86%E7%94%B1%E7%9A%84.svg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/img\/lg-\70BA\4EC0\9EBC\4E00\5B9A\8981\5403\751C\9EDE\.svg\'\)\]{
+    background-image: url('./img/lg-為什麼一定要吃甜點.svg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/img\/lg-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\'\)\]{
+    background-image: url('./img/lg-為什麼選擇了做甜點.svg');
+  }
+
+  .lg\:bg-\[url\(\'\.\/img\/sm-\60F3\5403\751C\9EDE\662F\4E0D\9700\8981\7406\7531\7684\.svg\'\)\]{
+    background-image: url('./img/sm-想吃甜點是不需要理由的.svg');
+  }
+
+  .lg\:bg-\[url\(\'\/img\/lg-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\'\)\]{
+    background-image: url('/img/lg-為什麼選擇了做甜點.svg');
+  }
+
+  .lg\:bg-\[url\(\'\{\{\}\}\.\/img\/lg-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\'\)\]{
+    background-image: url('{{}}./img/lg-為什麼選擇了做甜點.svg');
+  }
+
+  .lg\:bg-\[url\(\'\{\{\}\}\'\)\]{
+    background-image: url('{{}}');
+  }
+
+  .lg\:bg-\[url\(\'\{\{\.\/img\/lg-\70BA\4EC0\9EBC\9078\64C7\4E86\505A\751C\9EDE\.svg\}\}\'\)\]{
+    background-image: url('{{./img/lg-為什麼選擇了做甜點.svg}}');
   }
 
   .lg\:bg-no-repeat{
