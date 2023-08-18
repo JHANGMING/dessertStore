@@ -98,16 +98,6 @@ module.exports = {
     screens: {
       md: "768px",
       lg: "992px",
-      // 'md': '375px',
-      // => @media (min-width: 768px) { ... }
-      // 'lg':'964px',
-      // 'lg': '992px',
-      // => @media (min-width: 992px) { ... }
-
-      // 'xl': '1200px',
-      // => @media (min-width: 1200px) { ... }
-      // '2xl': '1320px',
-      // => @media (min-width: 1200px) { ... }
     },
   },
   plugins: [
