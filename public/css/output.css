@@ -971,6 +971,14 @@ a {
   height: fit-content;
 }
 
+.h-auto{
+  height: auto;
+}
+
+.min-h-\[277px\]{
+  min-height: 277px;
+}
+
 .w-1\/2{
   width: 50%;
 }
@@ -1679,6 +1687,10 @@ a {
 
   .md\:h-\[496px\]{
     height: 496px;
+  }
+
+  .md\:max-h-\[496px\]{
+    max-height: 496px;
   }
 
   .md\:w-\[380px\]{

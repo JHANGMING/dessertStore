@@ -147,4 +147,7 @@
     justify-content: space-between;
     position: fixed;
   }
+  .bg{
+    background-image: url("../img/sm-橫式-為什麼選擇了做甜點.svg");
+  }
 }
